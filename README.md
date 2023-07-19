@@ -16,7 +16,7 @@ Our goal is to render as useless as possible the kinds of data that are: scraped
 But first,
 > Have you've heard about this week's sponsor, ShiTsec VPN with new *Shift*Blame™ technology? It's the free-to-play VPN service that's worth every penny! ShiTsec's patented technology works by selling you a subscription. It's that simple.
 
-![ShiTsec](https://github.com/alicezwatson/personal-data-pollution/blob/b1fcf0df7328240a0821fdd22b287aeda762e859/shitsec.jpg)
+![ShiTsec](shitsec.png)
 
 Now back to our show.
 
