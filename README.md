@@ -13,6 +13,17 @@ Locking the digital doors and shuttering your Windows™ only goes so far.
 
 Our goal is to render as useless as possible the kinds of data that are: scraped and sold by data brokers, collected by ISPs and companies for targeted advertising, used by Fortnite players and other malicious individuals for doxxing attacks, identity theft, and account takeovers, or by abusers, stalkers, governments, and law enforcement, for surveillance and harassment.
 
+If you're keen on some real-world examples of how your data is used, here are a few:
+> ### **Photos and Facial Recognition**<br>
+> During the 2015 protests following Freddie Gray's death, the Baltimore County Police Department used facial recognition in combination with social media monitoring to track protesters.<br>
+> The police ran photos from social media posts through Maryland's facial recognition technology, enabling them to directly arrest individuals from the crowd.<br>
+> *Source: [Clare Garvie's 2019 hearing at the House of Representatives](https://www.congress.gov/116/meeting/house/109521/witnesses/HHRG-116-GO00-Wstate-GarvieC-20190522.pdf)*
+
+> In 2017, a suspect was captured on camera allegedly stealing beer from a CVS in New York City.<br>
+> When the low-quality surveillance image returned no matches on the NYPD's facial recognition system, the detectives used a high-quality images of actor Woody Harrelson, who bore some resemblance to the suspect.<br>
+> Using this method, they identified and arrested someone for petty larceny.<br>
+> *Source: [Clare Garvie, Garbage In, Garbage Out](https://www.flawedfacedata.com/)*
+
 But first,
 > Have you've heard about this week's sponsor, ShiTsec VPN with new *Shift*Blame™ technology? It's the free-to-play VPN service that's worth every penny! ShiTsec's patented technology works by selling you a subscription. It's that simple.
 
@@ -28,7 +39,7 @@ Now back to our show.
 
 This is an important initial step where you determine the data or assets you want to protect. For this project, we're going to focus on two groups of data: Personally Identifying Information (PII), and Behavioral Data (BD).
 
-![Threads Permissions](https://github.com/alicezwatson/personal-data-pollution/blob/b1fcf0df7328240a0821fdd22b287aeda762e859/threads_permissions.png)
+![Threads Permissions](threads_permissions.png)
 
 #### Personally Identifying Information (PII)
 These are not only things like your real name, birth-date, address, physical descriptors, medical information, and photos, but also your IP address, browser fingerprint, online handles, and avatars.
@@ -36,7 +47,7 @@ These are not only things like your real name, birth-date, address, physical des
 The reason I include the last few as "personally identifying" is because it's often easy to pivot from someone's handle or profile picture on one service to their alt and real-name accounts on other services. If, for instance, a company were to have trackers across many sites (*cough* Google, Facebook), then they can build profiles and connect them by a common IP, cookie, or browser fingerprint.
 
 #### Behavioral Data (BD)
-This is information about what you do on and offline. If your [typical morning routine](https://xkcd.com/1518/) has you logging in to your Threads account to check the like-count on your latest post about NFTs, then Meta knows a good deal about you already.
+This is information about what you do on and offline. If your [typical morning routine](https://xkcd.com/1518/) has you logging in to Threads to check the like-count on your latest post about NFTs, then Meta knows a good deal about you already.
 
 ### 2. Defining Adversaries
 
