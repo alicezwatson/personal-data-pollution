@@ -16,7 +16,11 @@ Our goal is to render as useless as possible the kinds of data that are: scraped
 If you're keen on some real-world examples of how your data is used, here are a few:
 
 > ### **Data Brokers**<br>
-> Just watch [Data Brokers: Last Week Tonight with John Oliver (HBO)](https://www.youtube.com/watch?v=wqn3gR1WTcA)
+> Watch [Data Brokers: Last Week Tonight with John Oliver (HBO)](https://www.youtube.com/watch?v=wqn3gR1WTcA). It's scary and funny.
+>
+> The Department of Homeland Security and FBI have been purchasing personal data from brokers, including cell phone location data and home address information.<br>
+> This circumvents democratic accountability as these agencies buy the data without warrants.<br>
+> *Source: [Data Brokers Are a Threat to Democracy](https://www.wired.com/story/opinion-data-brokers-are-a-threat-to-democracy/)*
 >
 > Travel website Orbitz showed more expensive options to Mac users, assuming they were wealthier.<br>
 > Equifax's credit reporting division sold “prescreened” lists of consumers late on their mortgage payments to Direct Lending Source, who resold them to entities marketing loan modification and debt relief services.<br>
