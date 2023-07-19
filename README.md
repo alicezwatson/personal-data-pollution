@@ -18,14 +18,17 @@ If you're keen on some real-world examples of how your data is used, here are a 
 > ### **Data Brokers**<br>
 > Watch [Data Brokers: Last Week Tonight with John Oliver (HBO)](https://www.youtube.com/watch?v=wqn3gR1WTcA). It's scary and funny.
 >
-> The Department of Homeland Security and FBI have been purchasing personal data from brokers, including cell phone location data and home address information.<br>
-> This circumvents democratic accountability as these agencies buy the data without warrants.<br>
+> The Department of Homeland Security and FBI have been purchasing personal data from brokers, including cell phone location data and home address information, circumventing democratic accountability as these agencies buy the data without warrants.<br>
 > *Source: [Data Brokers Are a Threat to Democracy](https://www.wired.com/story/opinion-data-brokers-are-a-threat-to-democracy/)*
 >
 > Travel website Orbitz showed more expensive options to Mac users, assuming they were wealthier.<br>
 > Equifax's credit reporting division sold “prescreened” lists of consumers late on their mortgage payments to Direct Lending Source, who resold them to entities marketing loan modification and debt relief services.<br>
 > Teletrack, Inc. also paid a penalty for selling lists of consumers who applied for non-traditional credit products, including payday loans, to third parties for marketing purposes.<br>
 > *Source: [A Review of the Data Broker Industry: Collection, Use, and Sale of Consumer Data for Marketing Purposes](https://www.commerce.senate.gov/services/files/bd5dad8b-a9e8-4fe9-a2a7-b17f4798ee5a)*
+
+> ### **Stalking and Abuse**<br>
+> In the case of online victimization, certain information might facilitate the offender’s pursuit of the victim (e.g., e-mail addresses, instant messenger IDs) or make the individual a more desirable target (e.g., posting relationship status, photos, sexual orientation), thereby increasing an individual’s attractiveness as a target.<br>
+> *Source: [Being Pursued Online: Applying Cyberlifestyle–Routine Activities Theory to Cyberstalking Victimization](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=72d7a292f41dd1f97555893e995a8765a2d04db9)*
 
 > ### **Photos and Facial Recognition**<br>
 > During the 2015 protests following Freddie Gray's death, the Baltimore County Police Department used facial recognition in combination with social media monitoring to track protesters.<br>
@@ -37,13 +40,14 @@ If you're keen on some real-world examples of how your data is used, here are a 
 > Using this method, they identified and arrested someone for petty larceny.<br>
 > *Source: [Clare Garvie, Garbage In, Garbage Out](https://www.flawedfacedata.com/)*
 
+---
 
-But first,
-> Have you've heard about this week's sponsor, ShiTsec VPN with new *Shift*Blame™ technology? It's the free-to-play VPN service that's worth every penny! ShiTsec's patented technology works by selling you a subscription. It's that simple.
+*Advertisement*<br>
+> Special thanks to this week's sponsor, ShiTsec VPN with *Shift*Blame™ technology.<br>
+> It's the free-to-play VPN service that's worth every penny!<br>
+> ShiTsec's patented technology works by selling your data. It's that simple.<br>
 
 ![ShiTsec](shitsec.png)
-
-Now back to our show.
 
 ---
 
