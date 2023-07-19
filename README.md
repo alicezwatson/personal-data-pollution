@@ -14,15 +14,25 @@ Locking the digital doors and shuttering your Windows™ only goes so far.
 Our goal is to render as useless as possible the kinds of data that are: scraped and sold by data brokers, collected by ISPs and companies for targeted advertising, used by Fortnite players and other malicious individuals for doxxing attacks, identity theft, and account takeovers, or by abusers, stalkers, governments, and law enforcement, for surveillance and harassment.
 
 If you're keen on some real-world examples of how your data is used, here are a few:
+
+> ### **Data Brokers**<br>
+> Just watch [Data Brokers: Last Week Tonight with John Oliver (HBO)](https://www.youtube.com/watch?v=wqn3gR1WTcA)
+>
+> Travel website Orbitz showed more expensive options to Mac users, assuming they were wealthier.<br>
+> Equifax's credit reporting division sold “prescreened” lists of consumers late on their mortgage payments to Direct Lending Source, who resold them to entities marketing loan modification and debt relief services.<br>
+> Teletrack, Inc. also paid a penalty for selling lists of consumers who applied for non-traditional credit products, including payday loans, to third parties for marketing purposes.<br>
+> *Source: [A Review of the Data Broker Industry: Collection, Use, and Sale of Consumer Data for Marketing Purposes](https://www.commerce.senate.gov/services/files/bd5dad8b-a9e8-4fe9-a2a7-b17f4798ee5a)*
+
 > ### **Photos and Facial Recognition**<br>
 > During the 2015 protests following Freddie Gray's death, the Baltimore County Police Department used facial recognition in combination with social media monitoring to track protesters.<br>
 > The police ran photos from social media posts through Maryland's facial recognition technology, enabling them to directly arrest individuals from the crowd.<br>
 > *Source: [Clare Garvie's 2019 hearing at the House of Representatives](https://www.congress.gov/116/meeting/house/109521/witnesses/HHRG-116-GO00-Wstate-GarvieC-20190522.pdf)*
-
+> 
 > In 2017, a suspect was captured on camera allegedly stealing beer from a CVS in New York City.<br>
 > When the low-quality surveillance image returned no matches on the NYPD's facial recognition system, the detectives used a high-quality images of actor Woody Harrelson, who bore some resemblance to the suspect.<br>
 > Using this method, they identified and arrested someone for petty larceny.<br>
 > *Source: [Clare Garvie, Garbage In, Garbage Out](https://www.flawedfacedata.com/)*
+
 
 But first,
 > Have you've heard about this week's sponsor, ShiTsec VPN with new *Shift*Blame™ technology? It's the free-to-play VPN service that's worth every penny! ShiTsec's patented technology works by selling you a subscription. It's that simple.
