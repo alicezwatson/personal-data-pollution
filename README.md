@@ -1,3 +1,18 @@
+# Introduction
+
+It feels like nowadays our data gets used against us as much—if not more—than for us. With the current state of online tracking and surveillance, controlling *who* knows *what* about you is a daunting task.
+
+Locking the digital doors and shuttering your Windows™ only goes so far.
+
+Our goal is to render useless the kinds of data that are: scraped and sold by data brokers, collected by ISPs and companies for targeted advertising, used by Fortnite players and other malicious individuals for doxxing attacks, identity theft, and account takeovers, or by abusers, stalkers, governments, and law enforcement, for surveillance and harassment.
+
+But first,
+> Have you've heard about this week's sponsor, ShiTsec VPN with new *Shift*Blame™ technology? It's the free-to-play VPN service that's worth every penny! ShiTsec's patented technology works by selling you a subscription. It's that simple.
+
+![ShiTsec](https://github.com/alicezwatson/personal-data-pollution/blob/b1fcf0df7328240a0821fdd22b287aeda762e859/shitsec.jpg)
+
+Now back to our show.
+
 # If Data is the New Oil, Let's Make a Molotov
 This project is a work in progress. Take is with a grain of salt and a spoonful of sugar.
 
@@ -7,7 +22,7 @@ This project is a work in progress. Take is with a grain of salt and a spoonful 
 
 This is an important initial step where you determine the data or assets you want to protect. For this project, we're going to focus on two groups of data: Personally Identifying Information (PII), and Behavioral Data (BD).
 
-![[threads_permissions.png]]
+![Threads Permissions](https://github.com/alicezwatson/personal-data-pollution/blob/b1fcf0df7328240a0821fdd22b287aeda762e859/threads_permissions.png)
 
 #### Personally Identifying Information (PII)
 These are not only things like your real name, birth-date, address, physical descriptors, medical information, and photos, but also your IP address, browser fingerprint, online handles, and avatars.
