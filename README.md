@@ -3,10 +3,12 @@
 This project is a work in progress. Take it with a grain of salt and a spoonful of sugar.
 
 ## Notes and To Dos
-- [ ] Address the (valid) critique of statistical techniques against data poisoning's effectiveness.<br>
+- [X] Address the (valid) critique of statistical techniques against data poisoning's effectiveness.<br>
   - See the Automated Fuckery section in part II.<br>
+  - Should flesh it out some more.
 - [ ] Flesh out Part II: Making Noise. Right now there's a lot of my train of thought. It should contain practical advice at different expertise levels for ruining the value of your data.<br>
 - [ ] For Part III, add pages with walkthroughs and how-tos for various platforms, as well as specific tactics at different levels of paranoia.
+- [ ] For Part IV, add resources for further reading.
 
 ---
 
@@ -149,7 +151,7 @@ What are we already doing and how well does it work?
 
 #### 3.1.2: Private Search Engines
 
-Private search engines function like regular search engines, but take measures to remove PII or disassociate it from the search queries.<br>
+Private search engines function like regular search engines, but take measures to remove PII or disassociate it from the search queries.
 My personal recommendation (and the one I use) is [StartPage.com](https://www.startpage.com/), which provides solid anonymity and good results (by using Google's site index).<br>
 *Source: [Which private search engine is the most private?](https://www.startpage.com/privacy-please/privacy-advocate-articles/private-search-engine-comparison)*
 
@@ -262,4 +264,36 @@ Lastly, consider making intentional behavioral changes to limit the amount of pe
 
 # Part III: Walkthroughs
 
-**TODO:** Add pages with walkthroughs and how-tos for various platforms, as well as specific tactics at different levels of paranoia.
+**TODO:** Add walkthroughs and how-tos for various platforms, as well as specific tactics at different levels of paranoia.
+**TODO:** Organize and expand on resources below.
+
+- https://developers.google.com/search/blog/2007/04/requesting-removal-of-content-from-our#requesting-removal-of-content-you-dont-own
+
+
+### Data broker opt-outs (from [McAfee](https://www.mcafee.com/blogs/tips-tricks/how-to-remove-personal-information-from-data-broker-sites/):
+
+> Acxiom: Go to the Acxiom opt-out form or call their support number at 877-774-2094. Pick which types of data you don’t want the company to gather. It can take a few weeks for your request to process.
+  
+> Epsilon: Email optout@epsilon.com and include your name and mailing address. You can also use the opt-out form to ask the company not to sell your personal information or delete your data entirely. If you don’t want to use email, you can call Epsilon’s phone number at 866-267-3861. Epsilon will have a third party verify your identity by asking questions about your personal information.  
+
+> Oracle: Go to Oracle’s opt-out page. Type in your personal info and click submit. It can take up to a month for Oracle to process your request.  
+
+> Equifax: On Equifax’s opt-out prescreen page, click “Click Here to Opt In or Opt Out” at the bottom of the page. Pick the option “Electronic Opt Out for Five Years.” You’ll have to provide some personal information. Click submit.  
+
+> Experian: You’ll likely have to opt out of all of Experian’s services individually. Experian’s data sharing services include OmniActivation Strategic Services, Direct Mail, Telemarketing, and Email. You can also try sending an email to unsubscribeall@experian.com or unsubscribe@experian.com. If you send an email, include the exact phrase, “Unsubscribe me from Experian’s email database,” in your message.  
+
+> CoreLogic: Email privacy@corelogic.com. Your subject line will need to be “California Privacy Rights Request.” Your email must state that you’d like to remove yourself from the companies’ databases and opt out of marketing programs. The email should have your name and address. If you don’t get a confirmation in about a week, follow up and ask for the status of your request. You can also try filling out the company’s opt-out form and mailing it to CoreLogic Teletrack Opt-Out Request, P.O. Box 509124, San Diego, CA, 92150. 
+
+
+### Automated opt-out services:
+
+**TODO:** I need to research these before I would recommend any of them. For now, they're just FYI.
+
+> [Incogni (w/ 50% off)](https://incogni.com/deal/?transaction_id=102c539b639d2c71fe9b9c1a80c72c&offer_id=921&affiliate_id=2707&source=&aff_sub=&utm_source=Affiliates&utm_medium=2707&utm_campaign=affiliate&utm_content=921&recurring_goal_id=914)
+
+> [DeleteMe](https://joindeleteme.com/) - I've used this before and it successfully removed me from a bunch of sites.
+
+
+# Part IV: More Resources
+
+**TODO:** Add more resources, duh.
