@@ -1,6 +1,19 @@
 # If Data is the New Oil, Let's Make a Molotov
 
-This project is a work in progress. Take it with a grain of salt and a spoonful of sugar.
+This project is currently a work in progress. Take it with a grain of salt and a spoonful of sugar.<br>
+
+## About the Author
+
+Hi, I'm Alice. You're already on my [GitHub](https://github.com/alicezwatson) page, and you can find my Mastodon profile [here](https://lgbtqia.space/@alice).<br>
+
+I spend my days working in the gaming industry as a chief data officer, and I've worked in data & business analytics for many years. When I'm not at work, I queer it up online, rant about capitalism, and advocate for data privacy.<br>
+
+As of writing, I think I'm currently most famous for a gif of a farting cat. Maybe this will change that, but knowing the internet, probably not.<br>
+
+I've had quite a few people ask me about data privacy and data pollution in the past couple years, including a couple of my previous employees who kept urging me to write a book about it. I'm too lazy to write a whole dang book, but this is my attempt at answering some of those questions and offering up as much knowledge as I have on the topic.<br>
+
+There are no ads, deals, or sponsors behind this project; it is 100% my own opinions and reseach, save for some input from Fediverse citizens who've commented on it.<br>
+
 
 ## Notes and To Dos
 - [X] Address the (valid) critique of statistical techniques against data poisoning's effectiveness.<br>
@@ -9,6 +22,7 @@ This project is a work in progress. Take it with a grain of salt and a spoonful 
 - [ ] Flesh out Part II: Making Noise. Right now there's a lot of my train of thought. It should contain practical advice at different expertise levels for ruining the value of your data.<br>
 - [ ] For Part III, add pages with walkthroughs and how-tos for various platforms, as well as specific tactics at different levels of paranoia.
 - [ ] For Part IV, add resources for further reading.
+- [ ] Add insider tips for getting analysts and systems to scrub your data during the munging/cleaning steps. Hint: `test`.
 
 ---
 
