@@ -309,3 +309,6 @@ Lastly, consider making intentional behavioral changes to limit the amount of pe
 # Part IV: More Resources
 
 **TODO:** Add more resources, duh.
+
+- https://ssd.eff.org/
+- https://ssd.eff.org/module/protecting-yourself-social-networks
