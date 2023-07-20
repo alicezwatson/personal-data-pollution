@@ -78,14 +78,14 @@ Besides being used for targeted advertising, manipulation of consumer habits, an
 ### 1.3 Now Do Some Soul Searching
 
 - StartPage (Google results): https://www.startpage.com/sp/search?q="ALICE WATSON"
-- DuckDuckGo: https://duckduckgo.com/?q="ALICE WATSON"
-- SearX: https://searx.org/search?q="ALICE WATSON"
+- DuckDuckGo: https://duckduckgo.com/?q="ALICE+WATSON"
+- SearX: https://searx.org/search?q="ALICE+WATSON"
 
-- Google: https://www.google.com/?q="ALICE WATSON"
-- Bing: https://www.bing.com/search?q="ALICE WATSON"
-- Yandex: https://yandex.com/search/?text="ALICE WATSON"
+- Google: https://www.google.com/?q="ALICE+WATSON"
+- Bing: https://www.bing.com/search?q="ALICE+WATSON"
+- Yandex: https://yandex.com/search/?text="ALICE+WATSON"
 
-- Whats My Name: https://whatsmyname.app/?q="ALICE WATSON"
+- Whats My Name: https://whatsmyname.app/?q="ALICE+WATSON"
 - Am I Unique: https://amiunique.org/fingerprint
 
 Make a note of what you find. How many results are actually you? How many results are someone with the same name/handle?<br>
