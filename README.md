@@ -7,7 +7,7 @@ This project is a work in progress. Take it with a grain of salt and a spoonful 
   - See the Automated Fuckery section in part II.<br>
 - [ ] Flesh out Part II: Making Noise. Right now there's a lot of my train of thought. It should contain practical advice at different expertise levels for ruining the value of your data.<br>
 - [X] Fix section numbering.<br>
-- [ ] For Section III, add pages with walkthroughs and how-tos for various platforms, as well as specific tactics at different levels of paranoia.
+- [ ] For Part III, add pages with walkthroughs and how-tos for various platforms, as well as specific tactics at different levels of paranoia.
 
 ---
 
