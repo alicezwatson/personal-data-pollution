@@ -46,6 +46,9 @@ Let's introduce some of the threats we'll be facing:<br>
 > The Department of Homeland Security and FBI have been purchasing personal data from brokers, including cell phone location data and home address information, circumventing democratic accountability as these agencies buy the data without warrants.<br>
 > *Source: [Data Brokers Are a Threat to Democracy](https://www.wired.com/story/opinion-data-brokers-are-a-threat-to-democracy/)*
 
+> "In a filing to the Federal Communication Commission, [ISPs] argued that providers should be able to sell customers’ internet history without the customers’ permission, because that information shouldn’t be considered sensitive."<br>
+> **Source:** [Encryption Won’t Stop Your Internet Provider From Spying on You](https://www.theatlantic.com/technology/archive/2017/03/encryption-wont-stop-your-internet-provider-from-spying-on-you/521208/)
+
 
 ## Stalking and Abuse
 > In the case of online victimization, certain information might facilitate the offender’s pursuit of the victim (e.g., e-mail addresses, instant messenger IDs) or make the individual a more desirable target (e.g., posting relationship status, photos, sexual orientation), thereby increasing an individual’s attractiveness as a target.<br>
@@ -321,3 +324,6 @@ Lastly, consider making intentional behavioral changes to limit the amount of pe
 
 - https://ssd.eff.org/
 - https://ssd.eff.org/module/protecting-yourself-social-networks
+- https://arxiv.org/pdf/1609.07922.pdf
+- https://www.theatlantic.com/technology/archive/2017/04/hiding-the-signal-in-the-noise/522564/
+- 
