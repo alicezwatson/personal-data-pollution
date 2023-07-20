@@ -97,7 +97,7 @@ PII is any data that could potentially identify a specific individual. This can 
 
 Behavioral data, also called "consumer insights", tracks user actions, habits, and decisions online. This can include everything from the links you click, what sites you visit and when, how far you scroll on a page, your social media activity, your digital purchases, your playlists, and anything else that paints a picture of your lifestyle, beliefs, and interests.<br>
 
-Besides being used for targeted advertising, manipulation of consumer habits, and micro-targeting in political campaigns (Cambridge Analytica comes to mind), a less talked about use for this data comes in the form of routine identification—where you go and when you're vulnerable—which can be used by stalkers and abusers to choose or track potential victims.
+Besides being used for targeted advertising, manipulation of consumer habits, and micro-targeting in political campaigns ([Cambridge Analytica](https://en.wikipedia.org/wiki/Facebook%E2%80%93Cambridge_Analytica_data_scandal) comes to mind), a less talked about use for this data comes in the form of routine identification—where you go and when you're vulnerable—which can be used by stalkers and abusers to choose or track potential victims.
 
 
 ## 1.3: Exercise: [Open Source Intelligence (OSINT)](https://www.sans.org/blog/what-is-open-source-intelligence/)
