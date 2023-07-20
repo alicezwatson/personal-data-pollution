@@ -3,10 +3,10 @@
 This project is a work in progress. Take it with a grain of salt and a spoonful of sugar.
 
 ## Notes and To Dos
-- Address the (valid) critique of statistical techniques against data poisoning's effectiveness.
-  - It's argued and counter-argued in a couple of the cited sources, but here's the quick of it: We're trying to raise the costs associated with analyzing our data, and introduce doubt as to its validity. The more people who pollute their data the less profit there is in selling it. This is covered in the Automated Fuckery section in part II.
-- Flesh out Part II: Making Noise. Right now there's a lot of my train of thought. It should contain practical advice at different expertise levels for ruining the value of your data.
-- Fix section numbering.
+- [ ] Address the (valid) critique of statistical techniques against data poisoning's effectiveness.<br>
+  - See the Automated Fuckery section in part II.<br>
+- [ ] Flesh out Part II: Making Noise. Right now there's a lot of my train of thought. It should contain practical advice at different expertise levels for ruining the value of your data.<br>
+- [X] Fix section numbering.<br>
 
 ---
 
