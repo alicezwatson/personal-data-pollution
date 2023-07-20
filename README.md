@@ -98,6 +98,12 @@ Make a note of what you find. How many results are actually you? How many result
 
 I recommend opening your favorite text editor (I use [Kate](https://kate-editor.org/) and [Obsidian](https://obsidian.md/)), and copying down the URLs that accurately identify you. You can add notes about what data each URL exposes, such as social, location, real name, etc. Keep this list handy, as you'll be revisiting it as you muck up your data.
 
+Here's an example of what I found on Google:<br>
+
+![Google results for Alice Z Watson](resources/images/google_alice.png)
+
+None of the results on the first 10 or so pages are me, but we find info on a bunch of other Alice Watsons. Creepily, there are a ***lot*** of obituaries for Alices.<br>
+
 Here's an example of what I found on ThatsThem:<br>
 
 ![ThatsThem result for Alice Watson](resources/images/thatsthem_alice.png)
@@ -108,7 +114,7 @@ Here's an example of what I found on WhatsMyName:<br>
 
 ![WhatsMyName result for Alice Watson](resources/images/whatsmyname_alice.png)
 
-Hey, that's me on the bottom right!
+Hey, that's me on the bottom right!<br>
 
 
 ## 2: Identifying Adversaries
