@@ -100,7 +100,7 @@ I recommend opening your favorite text editor (I use [Kate](https://kate-editor.
 
 Here's an example of what I found on ThatsThem:<br>
 
-![ThatsThem result for Alice Watson](resources/images/thatsthem_alice_1.png)
+![ThatsThem result for Alice Watson](resources/images/thatsthem_alice.png)
 
 
 ## 2: Identifying Adversaries
