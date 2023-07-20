@@ -1,7 +1,11 @@
 # If Data is the New Oil, Let's Make a Molotov
-This project is a work in progress.<br>
-Take is with a grain of salt and a spoonful of sugar.<br>
-Right now it is pretty much just the intro and some placeholder sections on threat modeling.
+This project is a work in progress. Take it with a grain of salt and a spoonful of sugar.<br>
+
+## Notes and To Dos
+- Address the (valid) critique of statistical techniques against data poisoning's effectiveness.
+  - It's argued and counter-argued in a couple of the cited sources, but here's the quick of it: We're trying to raise the costs associated with analyzing our data, and introduce doubt as to its validity. The more people who pollute their data the less profit there is in selling it. This is covered in the Automated Fuckery section in part II.
+- Flesh out Part II: Making Noise. Right now there's a lot of my train of thought. It should contain practical advice at different expertise levels for ruining the value of your data.
+- Fix section numbering.
 
 
 # Introduction
@@ -16,7 +20,7 @@ Our goal is to render as useless as possible the kinds of data that are: scraped
 If you're keen on some real-world examples of how your data is used, here are a few:
 
 > ### **Data Brokers**<br>
-> Watch [Data Brokers: Last Week Tonight with John Oliver (HBO)](https://www.youtube.com/watch?v=wqn3gR1WTcA). It's scary and funny.<br>
+> Just watch [Data Brokers: Last Week Tonight with John Oliver (HBO)](https://www.youtube.com/watch?v=wqn3gR1WTcA). John Oliver does a great job of introducing the subject.<br>
 >
 > The Department of Homeland Security and FBI have been purchasing personal data from brokers, including cell phone location data and home address information, circumventing democratic accountability as these agencies buy the data without warrants.<br>
 > *Source: [Data Brokers Are a Threat to Democracy](https://www.wired.com/story/opinion-data-brokers-are-a-threat-to-democracy/)*<br>
@@ -47,7 +51,7 @@ If you're keen on some real-world examples of how your data is used, here are a 
 > ShiTsec is the only the free-to-play VPN service that's worth every penny!<br>
 > ShiTsec's patented technology works by selling your data. It's that simple.<br>
 
-![ShiTsec](shitsec.png)
+![ShiTsec VPN logo depicting a blue and silver shield with the letters "SHI" and "SEC" surrounding an upside-down broom that acts as a letter "T"](shitsec.png)
 
 ---
 
@@ -59,23 +63,26 @@ Threat modeling is a systematic approach to identify potential threats and vulne
 ## 1. Identifying Assets
 
 Before we can talk about ***how*** to protect ourselves, we need to determine the data or assets we want to protect.<br>
-For this project, we're going to focus on two groups of data: Personally Identifying Information (PII), and Behavioral Data (BD).<br>
+For this project, we're going to focus on two groups of data: **Personally Identifying Information** (PII), and **Behavioral Data** (BD).<br>
 
-![Threads Permissions](threads_permissions.png)
+![Permissions for Meta's new Threads app, showing that they collect everything possible about their users](threads_permissions.png)
 
 ### 1.1. Personally Identifying Information (PII)
 
-PII is any data that could potentially identify a specific individual. This could be a range from full names, address, email addresses, to even biometric data. In certain cases, even IP addresses can be considered PII. Another sneaky form of PII is device fingerprinting, where characteristics of your device, such as its operating system, screen size, font libraries, etc., are used to build a unique profile.<br>
+PII is any data that could potentially identify a specific individual. This can range from full names, address, email addresses, to biometric data and IP addresses. Another common, but less obvious form of PII is device fingerprinting, where characteristics of your device, such as its operating system, screen size, font libraries, etc., are used to build a unique profile.<br>
 
 
 ### 1.2. Behavioral Data (BD)
 
-Behavioral data, or consumer insights data, tracks user actions, habits, and decisions online. This can include everything from the links you click, to your social media activity, to your digital purchases, and much more.<br>
+Behavioral data, also called "consumer insights", tracks user actions, habits, and decisions online. This can include everything from the links you click, to your social media activity, to your digital purchases, and much more.<br>
 
-Besides being used for targeted advertising, manipulation of consumer habits, and micro-targeting in political campaigns (the Cambridge Analytica scandal immediately comes to mind), a less talked about use for this data comes in the form of routine identification—where you go and when you're vulnerable—which can be used by stalkers and abusers to find or track victims.<br>
+Besides being used for targeted advertising, manipulation of consumer habits, and micro-targeting in political campaigns (Cambridge Analytica comes to mind), a less talked about use for this data comes in the form of routine identification—where you go and when you're vulnerable—which can be used by stalkers and abusers to choose or track potential victims.<br>
 
 
-### 1.3 Now Do Some Soul Searching
+### 1.3 Do Some Soul Searching
+
+Start by plugging your name and/or profile names into some searches.<br>
+Here are a few privacy-focused, big name, and specialty search engines to try:
 
 - StartPage (Google results): https://www.startpage.com/sp/search?q="ALICE+WATSON"
 - DuckDuckGo: https://duckduckgo.com/?q="ALICE+WATSON"
@@ -86,10 +93,11 @@ Besides being used for targeted advertising, manipulation of consumer habits, an
 - Yandex: https://yandex.com/search/?text="ALICE+WATSON"
 
 - Whats My Name: https://whatsmyname.app/?q="ALICE+WATSON"
-- Am I Unique: https://amiunique.org/fingerprint
+
+- Am I Unique (not exactly a search engine): https://amiunique.org/fingerprint
 
 Make a note of what you find. How many results are actually you? How many results are someone with the same name/handle?<br>
-I recommend opening your favorite text editor (I use [Kate](https://kate-editor.org/) and [Obsidian](https://obsidian.md/)), and copying the URLs that accurately identify you.<br>
+I recommend opening your favorite text editor (I use [Kate](https://kate-editor.org/) and [Obsidian](https://obsidian.md/)), and copying down the URLs that accurately identify you.<br>
 You can add notes about what data each URL exposes, such as social, location, real name, etc.<br>
 Keep this list handy, as you'll be revisiting it as you muck up your data.<br>
 
@@ -97,7 +105,14 @@ Keep this list handy, as you'll be revisiting it as you muck up your data.<br>
 ## 2. Identifying Adversaries
 
 We've already mentioned a number of adversaries above. For our purposes here, we'll use a more general definition:<br>
-> **Anyone trying to piece together a broader or more detailed profile of us, who we did not explicitly intend to share such insights with.**<br>
+> **Anyone trying to piece together a broader or more detailed profile of us, who we *did not explicitly* intend to share such insights with.**<br>
+
+We can then roll those adversaries into 3 main groups: bulk sellers, bulk buyers, and interested individuals.<br>
+
+We want our solutions to make our data: <br>
+1. too expensive for bulk sellers to collect & clean while maintaining a reasonable profit margin,
+2. too sketchy for bulk buyers to want to pay premium for it,
+3. and too sparse/anonymized to be a juicy target for interested individuals.
 
 
 ## 3. Understanding Existing Security Measures
@@ -118,7 +133,7 @@ What are we already doing and how well does it work?<br>
 
 #### 3.1.2. Private Search Engines
 > Private search engines function like regular search engines, but take measures to remove PII or disassociate it from the search queries.<br>
-> My personal recommendation (and the one I use) is [StartPage.com](https://www.startpage.com/), who provides solid anonymity and good results (through Google's site index).<br>
+> My personal recommendation (and the one I use) is [StartPage.com](https://www.startpage.com/), who provides solid anonymity and good results (by using Google's site index).<br>
 > *Source: [Which private search engine is the most private?](https://www.startpage.com/privacy-please/privacy-advocate-articles/private-search-engine-comparison)*<br>
 
 
@@ -144,9 +159,12 @@ Now, I'm not shitting on browser plugins; in fact, I'm going to cover some in-de
 ## 4. Evaluating Potential Threats
 
 Some of the assets and adversaries may stand out to you as particularly important. Which ones will depend on your personal threat model, and will vary from person to person.<br>
-If you're an activist or journalist, then maybe you're most worried about governments knowing your realtime location.<br>
-If you're a female college student, then maybe you're worried about a stranger or another classmate knowing your dorm room and when you're away for your night class.<br>
-Perhaps you're a member of a marginalized community, like the LGBTQIA+, and you don't want to be outed to family or co-workers.<br>
+
+> If you're an activist or journalist, then maybe you're most worried about governments knowing your realtime location.<br>
+> 
+> If you're a female college student, then maybe you're worried about a stranger or another classmate knowing your dorm room and when you're away for your night class.<br>
+> 
+> Perhaps you're a member of a marginalized community, like the LGBTQIA+, and you don't want to be outed to family or co-workers.<br>
 
 Each of these require different considerations when managing your online presence and the data it leaves behind.<br>
 
@@ -167,7 +185,7 @@ Threat modeling is not a one-time process. You should routinely review and updat
 
 ---
 
-# Part II: Making Noise (ROUGH DRAFT W/ PLACEHOLDER TEXT)
+# Part II: Making Noise
 
 Now that we've set the stage and established our threat model, it's time to take some action.<br>
 In this section, we'll explore different strategies that you can use to make noise and pollute your data online.<br>
@@ -176,7 +194,9 @@ By doing so, you can make it harder for adversaries to gather accurate informati
 
 ## 1. Old and Alternatives Accounts
 
-One strategy is to create alternative accounts for various online platforms. This can help you segregate aspects of your life and provide an additional layer of privacy.<br>
+One strategy is to create alternative accounts for various online platforms.<br>
+This can help you segregate aspects of your life and provide an additional layer of privacy.<br>
+
 By using different usernames, email addresses, and other identifying information, you can make it harder for adversaries to link your online activities together.<br>
 
 You can lower your attack surface and add noise by logging into old accounts you don't use anymore, and replacing accurate information in them with both plausible and obvious misinformation.<br>
@@ -185,8 +205,9 @@ Wait a while, or request some search engines to reindex that page, then delete t
 
 ## 2. Opting Out
 
-Many data brokers and online platforms provide an opt-out option that allows you to remove or limit the amount of personal information that they collect and share.<br>
-Don't forget to "update" your information first.
+Data brokers and online platforms are required by law to provide an opt-out option that allows you to remove or limit the amount of personal information that they collect and share. Unfortunately, most also make the process so invasive or complicated that most people won't bother.<br>
+
+One big issue of note is that most of those sites will also have your relatives or roommates listed as well, and their profiles (with more accurate information on them) will point to yours. In order to deal with these, you'll might need to convince them to remove/pollute their data too, or seed false connections so that the real ones are less likely to be immediately discovered.
 
 
 ## 3. Disinformation
@@ -194,11 +215,29 @@ Don't forget to "update" your information first.
 Another strategy to pollute your data is by intentionally sharing false or misleading information online.<br>
 By mixing in inaccurate details about your personal life, interests, or demographics, you can create noise and make it harder for adversaries to discern the truth.<br>
 
+While data brokers will often ask you to jump through hoops to remove your profile from their sites, most allow you to add or "correct" information about yourself with a much lower barrier.<br>
+
+If there are multiple results for your name, and some of them aren't you, consider changing parts of your profile to match their information.<br>
+
 
 ## 4. Automated Fuckery
 
 Automation can be a powerful tool to pollute your data online. By utilizing scripts, bots, or browser extensions, you can automate actions such as web browsing, social media activity, or search queries.<br>
 This can help create noise and generate data that may not accurately reflect your actual behavior or interests.<br>
+
+I'm sure that, at this very moment, someone is typing a message to [me](https://lgbtqia.space/@alice) about how machine learning models and statistics can sniff out this fake data, and that it's worthless to go through the effort of polluting your data.<br>
+
+To them I say, "you're right...sort of".<br>
+
+> "We demonstrated that a search engine, equipped with only a short-term history of user’s search queries, can break the privacy guarantees of TMN by only utilizing off-the-shelf machine learning classifiers."<br>
+> *Source: [On the Privacy of Web Search Based on Query Obfuscation: A Case Study of TrackMeNot](https://www.freehaven.net/anonbib/papers/pets2010/p2-peddinti.pdf)*<br>
+
+> "Our simulation results show that the noise generated by our approach greatly reduces the privacy leakage and provides much better protection than uniform noise"<br>
+> *Source: [Noise Injection for Search Privacy Protection](https://web.cs.ucdavis.edu/~hchen/paper/passat2009.pdf)*<br>
+
+It's a cat and mouse game. As the mouse, we don't have to beat the cat, we just have to not be worth its while.<br>
+
+TODO: talk about tools like https://github.com/essandess/isp-data-pollution and browser plugins like AdNauseum and Random User-Agent<br>
 
 
 ## 5. Behavioral Changes
