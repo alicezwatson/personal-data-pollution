@@ -33,9 +33,12 @@ With the current state of online tracking and surveillance, controlling *who* kn
 
 Locking the digital doors and shuttering your Windows™ only goes so far.
 
-Our goal is to render as useless as possible the kinds of data that are: scraped and sold by data brokers, collected by ISPs and companies for targeted advertising, used by Fortnite players and other malicious individuals for doxxing attacks, identity theft, and account takeovers, or by abusers, stalkers, governments, and law enforcement, for surveillance and harassment.
+Our goal is to render as useless as possible the kinds of data that are: scraped and sold by data brokers, collected by ISPs and companies for targeted advertising, used by Fortnite players and other malicious individuals for doxxing attacks, identity theft, and account takeovers, or by abusers, stalkers, governments, and law enforcement, for surveillance and harassment.<br>
 
-If you're keen on some real-world examples of how your data is used, here are a few:
+To do that, we're going to: 1. Understand the data landscape, 2. figure out our threat model, 3. Explore ways of buggering up our data, and 4. Apply what we're learned.<br>
+
+Let's introduce some of the threats we'll be facing:<br>
+
 
 ## Data Brokers
 > Just watch [Data Brokers: Last Week Tonight with John Oliver (HBO)](https://www.youtube.com/watch?v=wqn3gR1WTcA). John Oliver does a great job of introducing the subject.
@@ -48,12 +51,18 @@ If you're keen on some real-world examples of how your data is used, here are a 
 > In the case of online victimization, certain information might facilitate the offender’s pursuit of the victim (e.g., e-mail addresses, instant messenger IDs) or make the individual a more desirable target (e.g., posting relationship status, photos, sexual orientation), thereby increasing an individual’s attractiveness as a target.<br>
 > *Source: [Being Pursued Online: Applying Cyberlifestyle–Routine Activities Theory to Cyberstalking Victimization](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=72d7a292f41dd1f97555893e995a8765a2d04db9)*
 
+
 ## Photos and Facial Recognition
 > During the 2015 protests following Freddie Gray's death, the Baltimore County Police Department used facial recognition in combination with social media monitoring to track protesters. The police ran photos from social media posts through Maryland's facial recognition technology, enabling them to directly arrest individuals from the crowd.<br>
 > *Source: [Clare Garvie's 2019 hearing at the House of Representatives](https://www.congress.gov/116/meeting/house/109521/witnesses/HHRG-116-GO00-Wstate-GarvieC-20190522.pdf)*
 
 > In 2017, a suspect was captured on camera allegedly stealing beer from a CVS in New York City. When the low-quality surveillance image returned no matches on the NYPD's facial recognition system, the detectives used a high-quality images of actor Woody Harrelson, who bore some resemblance to the suspect. Using this method, they identified and arrested someone for petty larceny.<br>
 > *Source: [Clare Garvie, Garbage In, Garbage Out](https://www.flawedfacedata.com/)*
+
+
+## Targeted Manipulation
+> "Our findings suggest that the application of psychological targeting makes it possible to influence the behavior of large groups of people by tailoring persuasive appeals to the psychological needs of the target audiences."<br>
+> **Source:** [Psychological targeting as an effective approach to digital mass persuasion](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5715760/)
 
 ---
 
