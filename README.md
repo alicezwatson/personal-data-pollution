@@ -102,7 +102,11 @@ Here's an example of what I found on ThatsThem:<br>
 
 ![ThatsThem result for Alice Watson](resources/images/thatsthem_alice.png)
 
-That's not me (I already took care of this site), and I redacted most of the info on the profile, but it's an example of just how invasive these companies can be.
+That's not me (I already took care of this site), and I redacted most of the info on the profile, but it's an example of just how invasive these companies can be.<br>
+
+Here's an example of what I found on WhatsMyName:<br>
+
+![WhatsMyName result for Alice Watson](resources/images/whatsmyname_alice.png)
 
 
 ## 2: Identifying Adversaries
