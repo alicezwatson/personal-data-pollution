@@ -35,7 +35,7 @@ Locking the digital doors and shuttering your Windows™ only goes so far.
 
 Our goal is to render as useless as possible the kinds of data that are: scraped and sold by data brokers, collected by ISPs and companies for targeted advertising, used by Fortnite players and other malicious individuals for doxxing attacks, identity theft, and account takeovers, or by abusers, stalkers, governments, and law enforcement, for surveillance and harassment.<br>
 
-To do that, we're going to: 1. Understand the data landscape, 2. figure out our threat model, 3. Explore ways of buggering up our data, and 4. Apply what we're learned.<br>
+To do that, we're going to: 1. Understand the data landscape, 2. figure out our threat model, 3. explore ways of buggering up our data, and 4. apply what we've learned.<br>
 
 Let's introduce some of the threats we'll be facing:<br>
 
