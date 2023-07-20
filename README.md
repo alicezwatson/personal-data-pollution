@@ -77,7 +77,7 @@ Besides being used for targeted advertising, manipulation of consumer habits, an
 
 ### 1.3 Now Do Some Soul Searching
 
-- StartPage (Google results): https://www.startpage.com/sp/search?q="ALICE WATSON"
+- StartPage (Google results): https://www.startpage.com/sp/search?q="ALICE+WATSON"
 - DuckDuckGo: https://duckduckgo.com/?q="ALICE+WATSON"
 - SearX: https://searx.org/search?q="ALICE+WATSON"
 
