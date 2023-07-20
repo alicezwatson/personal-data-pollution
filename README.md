@@ -80,19 +80,19 @@ Besides being used for targeted advertising, manipulation of consumer habits, an
 Start by plugging your name and/or profile names into some searches.<br>
 Here are a few privacy-focused, big name, and specialty search engines to try:<br>
 
-- StartPage (Google results): https://www.startpage.com/sp/search?q="ALICE+WATSON"
-- DuckDuckGo: https://duckduckgo.com/?q="ALICE+WATSON"
-- SearX: https://searx.org/search?q="ALICE+WATSON"
-<br>
-- Google: https://www.google.com/?q="ALICE+WATSON"
-- Bing: https://www.bing.com/search?q="ALICE+WATSON"
-- Yandex: https://yandex.com/search/?text="ALICE+WATSON"
-<br>
-- Whats My Name: https://whatsmyname.app/?q="ALICE+WATSON"
+- StartPage (Google results): https://www.startpage.com/sp/search?q=ALICE+WATSON
+- DuckDuckGo: https://duckduckgo.com/?q=ALICE+WATSON
+- SearX: https://searx.org/search?q=ALICE+WATSON
+
+- Google: https://www.google.com/?q=ALICE+WATSON
+- Bing: https://www.bing.com/search?q=ALICE+WATSON
+- Yandex: https://yandex.com/search/?text=ALICE+WATSON
+
+- Whats My Name: https://whatsmyname.app/?q=ALICE+WATSON
 - Thats Them: https://thatsthem.com/name/ALICE-WATSON
 - Am I Unique (not exactly a search engine): https://amiunique.org/fingerprint
-<br>
-- (Advanced exercises) OSINT Framework: https://osintframework.com/
+
+- (Advanced exercises) OSINT Framework: https://osintframework.com
 
 Make a note of what you find. How many results are actually you? How many results are someone with the same name/handle?<br>
 
@@ -101,6 +101,8 @@ I recommend opening your favorite text editor (I use [Kate](https://kate-editor.
 Here's an example of what I found on ThatsThem:<br>
 
 ![ThatsThem result for Alice Watson](resources/images/thatsthem_alice.png)
+
+That's not me (I already took care of this site), and I redacted most of the info on the profile, but it's an example of just how invasive these companies can be.
 
 
 ## 2: Identifying Adversaries
