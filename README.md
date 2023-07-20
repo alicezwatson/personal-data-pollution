@@ -151,24 +151,23 @@ What are we already doing and how well does it work?
 
 #### 3.1.2: Private Search Engines
 
-Private search engines function like regular search engines, but take measures to remove PII or disassociate it from the search queries.
-My personal recommendation (and the one I use) is [StartPage.com](https://www.startpage.com/), which provides solid anonymity and good results (by using Google's site index).<br>
-*Source: [Which private search engine is the most private?](https://www.startpage.com/privacy-please/privacy-advocate-articles/private-search-engine-comparison)*
+> Private search engines function like regular search engines, but take measures to remove PII or disassociate it from the search queries. My personal recommendation (and the one I use) is [StartPage.com](https://www.startpage.com/), which provides solid anonymity and good results (by using Google's site index).<br>
+> *Source: [Which private search engine is the most private?](https://www.startpage.com/privacy-please/privacy-advocate-articles/private-search-engine-comparison)*
 
 
 ### 3.2: VPNs
 
-VPNs have their place, such as when access to online resources is geo-restricted, but when it comes to security, they're more about shifting trust. Now that most of the web supports HTTPS, and most browsers warn of sites that don't, the perks of using a VPN have diminished considerably.
+> VPNs have their place, such as when access to online resources is geo-restricted, but when it comes to security, they're more about shifting trust. Now that most of the web supports HTTPS, and most browsers warn of sites that don't, the perks of using a VPN have diminished considerably.
 
-"Many of the most popular VPN services are now also less trustworthy than in the past because they have been bought by larger companies with shady track records."<br>
-*Source: [It’s Time to Stop Paying for a VPN](https://www.nytimes.com/2021/10/06/technology/personaltech/are-vpns-worth-it.html)*
+> "Many of the most popular VPN services are now also less trustworthy than in the past because they have been bought by larger companies with shady track records."<br>
+> *Source: [It’s Time to Stop Paying for a VPN](https://www.nytimes.com/2021/10/06/technology/personaltech/are-vpns-worth-it.html)*
 
 If you want to shift that trust to yourself, and you have some technical aptitude, then you can run your own VPN (such as [Algo VPN](https://github.com/trailofbits/algo)) for cheap-to-free.
 
 
 ### 3.3: Browser Plugins
 
-There are a billion browser plugins out there that claim to provide security. However, they come with the same issues as many VPNs—you're trusting a third party (often a single developer) to protect you. Secondly, part of browser fingerprinting involves which and how many plugins you have, so the more you install, the more unique your browser's fingerprint is. Now, I'm not disregarding browser plugins; in fact, I'm going to cover some in-depth later on. But for now, there are a couple that do what they say on the label and are worth noting here:<br>
+> There are a billion browser plugins out there that claim to provide security. However, they come with the same issues as many VPNs—you're trusting a third party (often a single developer) to protect you. Secondly, part of browser fingerprinting involves which and how many plugins you have, so the more you install, the more unique your browser's fingerprint is. Now, I'm not disregarding browser plugins; in fact, I'm going to cover some in-depth later on. But for now, there are a couple that do what they say on the label and are worth noting here:<br>
 
 - [AdNauseam](https://adnauseam.io/) — AdNauseam incorporates [uBlock Origin](https://ublockorigin.com/) and, alongside blocking ads, it clicks all of them.
 - [Random User-Agent](https://github.com/tarampampam/random-user-agent) — This addon randomizes your browser's user-agent and changes it every few minutes.
@@ -230,11 +229,9 @@ One big issue of note is that most of those sites will also have your relatives 
 
 ## 3: Disinformation
 
-Another strategy to pollute your data is by intentionally sharing false or misleading information. By mixing in inaccurate details about your personal life, interests, or demographics, you can create noise and make it harder for adversaries to discern the truth.
+> Intentionally polluting your data by sharing false or misleading information. By mixing in inaccurate details about your personal life, interests, or demographics, you can create noise and make it harder for adversaries to discern the truth.
 
-While data brokers will often ask you to jump through hoops to remove your profile from their sites, most allow you to add or "correct" information about yourself with a much lower barrier.
-
-If there are multiple results for your name, and some of them aren't you, consider changing parts of your profile to match their information.
+> While data brokers will often ask you to jump through hoops to remove your profile from their sites, most allow you to add or "correct" information about yourself with a much lower barrier. If there are multiple results for your name, and some of them aren't you, consider changing parts of your profile to match their information.
 
 
 ## 4: Automated Fuckery
@@ -253,7 +250,7 @@ To them, I say, "you're right...sort of".
 
 It's a cat and mouse game. As the mouse, we don't have to beat the cat, we just have to not be worth its while.
 
-**TODO: Talk about tools like [ISP-Data-Pollution](https://github.com/essandess/isp-data-pollution) and browser plugins like AdNauseam and Random User-Agent**
+**TODO:** Talk about tools like [ISP-Data-Pollution](https://github.com/essandess/isp-data-pollution) and browser plugins like AdNauseam and Random User-Agent.
 
 
 ## 5: Behavioral Changes
@@ -264,13 +261,14 @@ Lastly, consider making intentional behavioral changes to limit the amount of pe
 
 # Part III: Walkthroughs
 
-**TODO:** Add walkthroughs and how-tos for various platforms, as well as specific tactics at different levels of paranoia.
-**TODO:** Organize and expand on resources below.
+**TODO:** Add walkthroughs and how-tos for various platforms, as well as specific tactics at different levels of paranoia.<br>
+**TODO:** Organize and expand on resources below.<br>
 
+### Search Index Opt-Outs
 - https://developers.google.com/search/blog/2007/04/requesting-removal-of-content-from-our#requesting-removal-of-content-you-dont-own
 
 
-### Data broker opt-outs (from [McAfee](https://www.mcafee.com/blogs/tips-tricks/how-to-remove-personal-information-from-data-broker-sites/):
+### Data Broker Opt-Outs (from [McAfee](https://www.mcafee.com/blogs/tips-tricks/how-to-remove-personal-information-from-data-broker-sites/):
 
 > Acxiom: Go to the Acxiom opt-out form or call their support number at 877-774-2094. Pick which types of data you don’t want the company to gather. It can take a few weeks for your request to process.
   
