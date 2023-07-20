@@ -252,6 +252,8 @@ Data brokers and online platforms are required by law to provide an opt-out opti
 
 One big issue of note is that most of those sites will also have your relatives or roommates listed as well, and their profiles (with more accurate information on them) will point to yours. In order to deal with these, you might need to convince them to remove/pollute their data too or seed false connections so that the real ones are less likely to be immediately discovered.
 
+> The [Big Ass Data Broker Opt-Out List](https://github.com/yaelwrites/Big-Ass-Data-Broker-Opt-Out-List) has, well, a big ass list of data brokers and information on how to opt out of them.
+
 
 ## 3: Disinformation
 
